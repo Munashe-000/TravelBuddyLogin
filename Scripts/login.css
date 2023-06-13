@@ -15,9 +15,9 @@ body{
 
 .zcard{
     height: 730px;
-    width: 900px;
+    width: 950px;
     position: absolute;
-    top: 53%;
+    top: 52%;
     border: none;
     background-color: none;
     left: 60%;
@@ -26,6 +26,17 @@ body{
     color: #ffffff;
 
 
+}
+
+.navbar-nav {
+    color:white;
+}
+
+li{
+    padding-right: 100px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .zcard h3{
@@ -55,7 +66,7 @@ footer .childs{
 }
 
 form{
-    height: 800px;
+    height: 770px;
     width: 440px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
