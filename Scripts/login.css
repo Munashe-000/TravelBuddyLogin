@@ -13,7 +13,7 @@ body{
     background-color:transparent;
 }
 
-.card{
+.zcard{
     height: 730px;
     width: 900px;
     position: absolute;
@@ -28,14 +28,14 @@ body{
 
 }
 
-.card h3{
+.zcard h3{
     font-size: 25px;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
 }
 
-.card p{
+.zcard p{
     font-size: 15px;
     letter-spacing: 0.3px;
     outline: none;
@@ -43,7 +43,7 @@ body{
     color: rgba(255, 255, 255, 0.891);
 }
 
-.card footer{
+.zcard footer{
     display: inline-block;
     position: absolute;
     bottom: 0;
