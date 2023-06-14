@@ -13,6 +13,7 @@
 
     <br/>
 
+    <!-- Navbar which is transparent and contains the logo in the start of the navbar-->
     <nav class="navbar navbar-expand-sm ">
         <div class="container">
             <img id="logo" src="Images/logoTop.png">
@@ -35,7 +36,7 @@
 </head>
 <body>
     
-
+    <!-- Form which will be used for creating account with validated inputs-->
     <form>
         <h3 >Create Account</h3>
 
@@ -43,10 +44,10 @@
         <input type="text" placeholder="Full names" id="names">
 
         <label for="email">Email</label>
-        <input type="email" placeholder="Email address" id="email">
+        <input type="email" placeholder="Email address" id="email"> <!-- Email contains validation check with input type -->
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Password" id="password">   <!-- Password hidden, will add regex to ensure password strength after -->
         
         <br/>
 
@@ -57,7 +58,7 @@
         <br/>
         <br/>
 
-
+        <!-- Icons for social media connections to create account with -->
         <div id="socialIcons">
             <h4>Sign up with</h4>
 
@@ -72,6 +73,7 @@
 
     </form>
 
+    <!-- Cards which contain the information for the other cities as the slideshow goes from city to city -->
     <div class="zcard">
         <h3>Cape Town</h3>
 
@@ -105,6 +107,7 @@
 
     </div>
 
+    <!-- Footer with active city showing for user in red -->
     <footer class="bottomnav">
         <div class="containers"></div>
         <div class="childs" style="color: red;padding-left: 80px;">
