@@ -11,137 +11,138 @@
 
     <link rel="stylesheet" href="Scripts/login.css">
 
-    <br/>
-
-    <!-- Navbar which is transparent and contains the logo in the start of the navbar-->
-    <nav class="navbar navbar-expand-sm ">
-        <div class="container">
-            <img id="logo" src="Images/logoTop.png">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#">Hotels and Accomodation</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Restaurants</a>
-                </li>
-                <li  class="nav-item">
-                    <a href="#">Destinations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Activities</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 </head>
 <body>
     
-    <!-- Form which will be used for creating account with validated inputs-->
-    <form>
-        <h3 >Create Account</h3>
+    <div class="pgContainer">
 
-        <label for="username">Name</label>
-        <input type="text" placeholder="Full names" id="names">
-
-        <label for="email">Email</label>
-        <input type="email" placeholder="Email address" id="email"> <!-- Email contains validation check with input type -->
-
-        <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">   <!-- Password hidden, will add regex to ensure password strength after -->
-        
-        <br/>
-
-        <button id="myLogger">Create</button>
-
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-
-        <!-- Icons for social media connections to create account with -->
-        <div id="socialIcons">
-            <h4>Sign up with</h4>
-
-                <span>
-                    <i class="fab fa-google"></i>
-                    &nbsp;
-                    <i class="fab fa-facebook"></i>
-                    &nbsp;
-                    <i class="fab fa-apple"></i>
-                </span>
-        </div>
-
-    </form>
-
-    <!-- Cards which contain the information for the other cities as the slideshow goes from city to city -->
-    <div class="zcard">
-        <h3>Cape Town</h3>
-
-        <br/>
-
-        <p>Cape town is a beautiful city located in the Wester Cape province of South Africa. Often referred to as the "Mother City", it offers a premium tourist experience for travellers looking to enjoy the 
-            the coastal areas of the country. It is also home to one of the seven wonders of the world, Table Mountain. It boasts a number of other tourist attractions such a lovely beach resorts and
-            the infamous Robben Island where humanitarian icon Nelson Mandela was held prisoner.
-        </p>
-
-        <footer>
-            <div class="containers"></div>
-                <div class="childs">
-                    Area: <br>
-                    650.2 km
-                </div>
-
-
-                <div class="childs">
-                    Population: <br>
-                    12.2 million
-                </div>
-
-
-                <div class="childs">
-                    Province: <br>
-                    Western Cape
-                </div>
+        <!-- Navbar which is transparent and contains the logo in the start of the navbar
+        <nav class="navbar navbar-expand-sm ">
+            <div class="container">
+                <img id="logo" src="Images/logoTop.png">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#">Hotels and Accomodation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Restaurants</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a href="#">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Activities</a>
+                    </li>
+                </ul>
             </div>
+        </nav>                                              -->
+
+
+        <img class="inam" src="Images/cptnight.jpg"/>
+        <img class="inam" src="Images/pta.jpg"/>
+
+        <!-- Form which will be used for creating account with validated inputs-->
+        <form>
+            <h3 >Create Account</h3>
+
+            <label for="username">Name</label>
+            <input type="text" placeholder="Full names" id="names">
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email address" id="email"> <!-- Email contains validation check with input type -->
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password">   <!-- Password hidden, will add regex to ensure password strength after -->
+            
+            <br/>
+
+            <button id="myLogger">Create</button>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <!-- Icons for social media connections to create account with -->
+            <div id="socialIcons">
+                <h4>Sign up with</h4>
+
+                    <span>
+                        <i class="fab fa-google"></i>
+                        &nbsp;
+                        <i class="fab fa-facebook"></i>
+                        &nbsp;
+                        <i class="fab fa-apple"></i>
+                    </span>
+            </div>
+
+        </form>
+
+        <!-- Cards which contain the information for the other cities as the slideshow goes from city to city -->
+        <div class="zcard">
+            <h3>Cape Town</h3>
+
+            <br/>
+
+            <p>Cape town is a beautiful city located in the Wester Cape province of South Africa. Often referred to as the "Mother City", it offers a premium tourist experience for travellers looking to enjoy the 
+                the coastal areas of the country. It is also home to one of the seven wonders of the world, Table Mountain. It boasts a number of other tourist attractions such a lovely beach resorts and
+                the infamous Robben Island where humanitarian icon Nelson Mandela was held prisoner.
+            </p>
+
+            <footer>
+                <div class="containers"></div>
+                    <div class="childs">
+                        Area: <br>
+                        650.2 km
+                    </div>
+
+
+                    <div class="childs">
+                        Population: <br>
+                        12.2 million
+                    </div>
+
+
+                    <div class="childs">
+                        Province: <br>
+                        Western Cape
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        
+
+        <!-- Footer with active city showing for user in red -->
+        <footer class="bottomnav">
+            <div class="containers"></div>
+            <div class="childs" style="color: red;padding-left: 80px;">
+                Cape Town
+            </div>
+            <div onclick="myFunction" class="childss">
+                Pretoria
+            </div>
+            <div class="childss">
+                Johannesburg
+            </div>
+            <div class="childss">
+                Durban
+            </div>
+            <div class="childss">
+                Krugersdorp
+            </div>
+            <div class="childss">
+                Karoo
+            </div>
+            <div class="childss">
+                Plett
+            </div>
+        </div>
+
+
         </footer>
-
     </div>
-
-    <script>
-        function myFunction() 
-        {
-            document.getElementByName("body").style.backgroundImage = "url(../Images/pta.jpg)";
-        }
-    </script>
-
-    <!-- Footer with active city showing for user in red -->
-    <footer class="bottomnav">
-        <div class="containers"></div>
-        <div class="childs" style="color: red;padding-left: 80px;">
-            Cape Town
-        </div>
-        <div onclick="myFunction" class="childss">
-            Pretoria
-        </div>
-        <div class="childss">
-            Johannesburg
-        </div>
-        <div class="childss">
-            Durban
-        </div>
-        <div class="childss">
-            Krugersdorp
-        </div>
-        <div class="childss">
-            Karoo
-        </div>
-        <div class="childss">
-            Plett
-        </div>
-    </div>
-
-
-    </footer>
 </body>
 </html>
 
