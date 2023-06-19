@@ -107,13 +107,20 @@
 
     </div>
 
+    <script>
+        function myFunction() 
+        {
+            document.getElementByName("body").style.backgroundImage = "url(../Images/pta.jpg)";
+        }
+    </script>
+
     <!-- Footer with active city showing for user in red -->
     <footer class="bottomnav">
         <div class="containers"></div>
         <div class="childs" style="color: red;padding-left: 80px;">
             Cape Town
         </div>
-        <div class="childss">
+        <div onclick="myFunction" class="childss">
             Pretoria
         </div>
         <div class="childss">
